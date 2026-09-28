@@ -1,0 +1,5 @@
+experiment,train_samples,loss,encoder,best_val_dice,best_val_iou,test_dice,test_iou
+Baseline U-Net,4539,BCE + Dice,U-Net,0.6017,0.4896,0.6525,0.4843
++3000 OmniCrack,7539,BCE + Dice,U-Net,0.5924,0.4828,0.6286,0.4583
+Dice-only,4539,Dice,U-Net,0.5823,0.4702,0.6272,0.4569
+Pretrained ResNet-18,4539,BCE + Dice,ResNet-18,0.6375,0.5287,0.6598,0.4923
